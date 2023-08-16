@@ -15,7 +15,7 @@ interface Transaction {
 
 export function Transactions() {
 
-  const [transactions, setTransactions] = useState<Transaction[]>([]);
+  const [transactions, setTransactions] = useState<Transaction[]>([]);// forma de passar a interface para função. 
 
   async function loadTransactions() {
     const response = await fetch('http://localhost:3434/transactions')
