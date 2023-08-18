@@ -9,6 +9,7 @@ import { PriceHighlight, TransactionsContainer, TransactionsTable } from "./styl
 
 
 export function Transactions() {
+  
   const { transactions } = useContext(TransactionsContext)
 
   return (
